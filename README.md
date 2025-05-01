@@ -1,11 +1,10 @@
-# 🛰️ Image-Based Geolocation and Orientation Prediction on IIIT-H Campus
+# 🛰️ Image-Based Geolocation Prediction on IIIT-H Campus
 *IIIT Hyderabad | Spring 2025*
 
 ---
 ## 📌 Project Overview
 
-This project addresses the task of predicting spatial location and camera orientation from a single image captured on the IIIT Hyderabad campus. The model predicts:
-
+This project aims to predict info from images taken across the IIIT Hyderabad campus. Using annotated data with spatial and temporal metadata, a CNN-based model was developed to learn visual and spatial patterns for accurate geolocation and orientation estimation on unseen images.
 - **Latitude** (scaled)
 - **Longitude** (scaled)
 - **Camera Angle**
