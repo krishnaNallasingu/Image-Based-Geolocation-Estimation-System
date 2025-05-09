@@ -17,7 +17,7 @@ The objective is to develop a robust deep learning model capable of both regress
 ## 🧠 Task Description
 
 - **Data Collection**:
-  - Captured and annotated over 3,000 images across 15 predefined regions on campus.
+  - Captured and annotated over 8000 images across 15 predefined regions on campus.
   - Each image is tagged with metadata: GPS coordinates, timestamp, orientation angle, and region ID.
 
 - **Dataset Features**:
@@ -46,7 +46,7 @@ The objective is to develop a robust deep learning model capable of both regress
 | Latitude Prediction | MSE    | < 0.25    |
 | Longitude Prediction| MSE    | < 0.27    |
 | Angle Prediction    | MAAE    | < 0.05    |
-| Region ID Classification | Accuracy | **91.%** |
+| Region ID Classification | Accuracy | **96.%** |
 
 ---
 
@@ -55,7 +55,7 @@ The objective is to develop a robust deep learning model capable of both regress
 - Python, NumPy, Pandas
 - TensorFlow / PyTorch
 - CNNs (Convolutional Neural Networks)
-- Transfer Learning (ResNet-50 and ImageNet)
+- Transfer Learning (ResNet-50 , EfficientNet and ImageNet)
 - Multi-output Learning (Regression + Classification)
 - Data Augmentation and Preprocessing
 - Matplotlib & Seaborn for visualization
